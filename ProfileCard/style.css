@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+.outerbox {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.upper{
+    background-color: blue;
+    padding: 75px;
+    border-top-left-radius: 1.25rem; 
+      border-top-right-radius: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+}
+.image{
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 420px;
+    border: 3px solid #fff;
+}
+.lower{
+
+}
+
+.Name{
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    width: 30px;
+    padding: 0.625rem;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.buttons button {
+    margin-right: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 1.25rem;
+    border: 0;
+    width: 130px;
+    height: 34px;
+}
+
+.btn:hover {
+    background-color: #0f2d80;
+}
+.icons {
+   
+}
+.icons-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.icons ul {
+    list-style: none;
+}
+
+.icons li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+
+.icons li:last-child {
+    border-right: none;
+}
+
+
