@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+section{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #121321;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section::before {
+    content: "";
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(150px, -100px);
+    background: linear-gradient(90deg, 
+    #C21292, #f3f5f5);
+    z-index: 2;
+}
+
+section::after {
+    content: "";
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(-150px, 100px);
+    background: linear-gradient(90deg, 
+    #C21292, #f3f5f5);
+    z-index: 3;
+}
+
+.container{
+    width: 450px;
+    height: 275px;
+    position: relative;
+    z-index: 10;
+}
+
+.container .card {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 10%;
+    box-shadow: 0 25px 45px rgb(57, 36, 103, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.font-face .logo img{
+    width: 50px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h5{
+    font-size: 25px;
+}
+
+h5{
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+h6{
+    font-size: 16px;
+}
+
+.header{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.container .font-face .chip img{
+    width: 40px;
+    background: transparent;
+}
+
+.font-face .card-details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.card-details h5{
+    font-weight: 500;
+}
+
+.valid-date{
+    margin-top: 35px;
+}
+
+h5.number{
+    letter-spacing: 1px;
+}
+
+h5.name{
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.card .back-face {
+    border: none;
+    padding: 15px 25px 25px 25px;
+}
+
+.card .back-face h6{
+    font-size: 8px;
+}
+
+ .magnetic-strip{
+    position: absolute;
+    height: 45px;
+    margin-top: 5px;
+    width: 100%;
+
+    left: 0;
+    background: #000;
+}
+
+.top{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.signature{
+    margin-top: 50px;
+    margin: 25px;
+    height: 40px;
+    padding-right: 5px;
+    width: 85%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 6px;
+    color: #000;
+}
+
+ .back-face h5{
+    font-size: 16px;
+    
+}
